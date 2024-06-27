@@ -53,4 +53,19 @@ def mostrar_menu():
 
 def buscar_pelicula():
     codigo = input("Ingrese el codigo de la pelicula: ")
+    if codigo in diccionaro_peliculas:
+        pelicula = diccionaro_peliculas[codigo]
+        print("informacion de la pelicula encontrada: ")
+        print(f"codigo        :{pelicula['codigo']} ")
+        print(f"nombre        :{pelicula['nombre']}")
+        print(f"anio          :{pelicula['anio']}")
+        print(f"categoria     :{pelicula['categoria']}")
+        print(f"actores       :{pelicula['actores']}")
+        print(f"director      :{pelicula['director']}")
+
+    else:
+        print("UPS!! no se encuentran peliculas para este codigo")
+
+def salir_y_guardar():
+    print("Hasta pronto !!")
  

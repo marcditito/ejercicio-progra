@@ -1,4 +1,4 @@
-from misfunciones import agregar_pelicula ,listar_peliculas,mostrar_menu,buscar_pelicula
+from misfunciones import agregar_pelicula ,listar_peliculas,mostrar_menu,buscar_pelicula,salir_y_guardar
 
 while True:
     opcion = mostrar_menu()
@@ -10,7 +10,7 @@ while True:
     elif opcion ==  3:
         buscar_pelicula()
     elif opcion == 4:
-        print("ups vuelva pronto")
+        salir_y_guardar()
         break
     else:
         print("opcion no valida. intente nuevamente.\n")
