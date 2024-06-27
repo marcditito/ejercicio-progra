@@ -69,3 +69,7 @@ def buscar_pelicula():
 def salir_y_guardar():
     print("Hasta pronto !!")
  
+#git add . (agregar todos los archivos)
+#git commit -n "nombre" (agregar nombre al archivo)
+#git status (saber si esta activo )
+#git init (iniciar el codigo)
